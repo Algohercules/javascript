@@ -20,7 +20,10 @@
 // arr.push(8)
 // console.log(arr)
 
-arr.pop()
+// arr.pop()
+// console.log(arr)
+
+arr.shift()
 console.log(arr)
 
 // arr.slice(starting_index,ending_index)
