@@ -98,28 +98,28 @@
 
 //for-each:--
 
-let arr = [10,20,30];
-arr.forEach((value,index) => {
-    console.log("number:", value, "index:", index);
-});
+// let arr = [10,20,30];
+// arr.forEach((value,index) => {
+//     console.log("number:", value, "index:", index);
+// });
 
 
 
 // for-in:--
 
-// let obj = {
-//     "name":"adarsh",
-//     age : 25,
-//     weight : 85,
-//     height : "6 feet 1 inch",
-//     greet: function() {
-//         console.log("hello ji kaise ho saare")
-//     }
-// }
+let obj = {
+    "name":"adarsh",
+    age : 25,
+    weight : 85,
+    height : "6 feet 1 inch",
+    greet: function() {
+        console.log("hello ji kaise ho saare")
+    }
+}
 
-// for(let key in obj){
-//     console.log(key," ", obj[key]);
-// }
+for(let key in obj){
+    console.log(key," ", obj[key]);
+}
 
 // for-of :--
 
