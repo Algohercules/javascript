@@ -38,6 +38,7 @@
 // console.log(arr)
 
 //mapping:--
+
 let arr = [10,20,30];
 
  let ansArray = arr.map( function (number) {
