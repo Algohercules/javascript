@@ -94,21 +94,21 @@
 //console.log(op1.toUpperCase());
 
 // let str = "adarshkumarrai";
-console.log(str.substring(0));
-console.log(str.substring(1));
-console.log(str.substring(2));
-console.log(str.substring(3));
-console.log(str.substring(4));
+// console.log(str.substring(0));
+// console.log(str.substring(1));
+// console.log(str.substring(2));
+// console.log(str.substring(3));
+// console.log(str.substring(4));
 
-console.log(str.substring(5));
+// console.log(str.substring(5));
 
-console.log(str.substring(6));
+// console.log(str.substring(6));
 
-console.log(str.substring(2,8));
+// console.log(str.substring(2,8));
 
 
-// let sentence = "hello ji kaise ho saare"
-// let words = sentence.split(' ');
+let sentence = "hello ji kaise ho saare"
+let words = sentence.split(' ');
 // console.log(words);
 
 // let sentence = "hello ji \"kaise\" ho saare";
