@@ -133,49 +133,49 @@ truthy--> anything that is not falsey*/
 
 //nested if-else
 
-let number = 4;
-let age2 = 104;
+// let number = 4;
+// let age2 = 104;
 
-if(number == 1)
-{
-    console.log('a')
-}
-else if(number == 2)
-{
-    console.log('b')
-}
-else if(number == 3)
-    {
-        console.log('c')
-    }
-else if(number == 4)
-        {
-            if(age2>18){
-                console.log('i can vote')
-            }   
-            console.log('d')
-        }
-       else                                  //optional
-            {
-                console.log('e')
-            }
+// if(number == 1)
+// {
+//     console.log('a')
+// }
+// else if(number == 2)
+// {
+//     console.log('b')
+// }
+// else if(number == 3)
+//     {
+//         console.log('c')
+//     }
+// else if(number == 4)
+//         {
+//             if(age2>18){
+//                 console.log('i can vote')
+//             }   
+//             console.log('d')
+//         }
+//        else                                  //optional
+//             {
+//                 console.log('e')
+//             }
 
 
 //switch case
 
-// let num = 3;
+let num = 3;
 
-// switch(num){
-//     case 1: console.log('a');
-//     break;         
-//     case 2: console.log('b')
-//     break;
-//     case 3: console.log('c')
-//     break;
-//     case 4: console.log('d')
-//     break;
-//     default: console.log('g')
-// }
+switch(num){
+    case 1: console.log('a');
+    break;         
+    case 2: console.log('b')
+    break;
+    case 3: console.log('c')
+    break;
+    case 4: console.log('d')
+    break;
+    default: console.log('g')
+}
 
 
 
