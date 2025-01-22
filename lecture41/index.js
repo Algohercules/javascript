@@ -15,10 +15,10 @@
 // (a=a*3) = (a*=3)
 
 
-//pre increment
-//post increment
-//pre decrement
-//post decrement
+pre increment
+post increment
+pre decrement
+post decrement
 
 
 // //comparison operators
@@ -32,13 +32,13 @@
 // !==
 // */
 
-console.log(10<5)
-console.log(10>5)
-console.log(10<=5)
-console.log(10>=5)
-console.log(10==5)
-console.log(10!=5)
-console.log(10!==5)
+// console.log(10<5)
+// console.log(10>5)
+// console.log(10<=5)
+// console.log(10>=5)
+// console.log(10==5)
+// console.log(10!=5)
+// console.log(10!==5)
 
 // console.log('5'==5);   //loose equality
 // console.log('5'===5)   //strict equality
