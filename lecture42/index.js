@@ -20,23 +20,23 @@
 
 
 // //use of break keyword
-for(let i=1; i<=6; i++){
-    if(i==4){
-        break;
-       }   else{
-            console.log(i)
-        }   
-}
+// for(let i=1; i<=6; i++){
+//     if(i==4){
+//         break;
+//        }   else{
+//             console.log(i)
+//         }   
+// }
 
 //use of continue keyword
-// for(let i=1; i<=4; i++){
-//     if(i==3){
-//         continue;
-//     }
-//     else{
-//         console.log(i)
-//     }
-// }
+for(let i=1; i<=4; i++){
+    if(i==3){
+        continue;
+    }
+    else{
+        console.log(i)
+    }
+}
 
 // let i=1;
 // while(i<=10){
