@@ -74,20 +74,20 @@ truthy--> anything that is not falsey*/
 
 //bitwise operators
 
-AND(&)
-OR(|)
-NOT(~)
-<<
->>
-XOR(^)
+// AND(&)
+// OR(|)
+// NOT(~)
+// <<
+// >>
+// XOR(^)
 
 
-// console.log(2&5)
+// // console.log(2&5)
 // console.log(2|5)
 // console.log(~0)
 
-//left shift --> (5<<3) = (5*2^3)
-//right shift --> (10>>3) = (10/2^3)
+left shift --> (5<<3) = (5*2^3)
+right shift --> (10>>3) = (10/2^3)
 
 
 
