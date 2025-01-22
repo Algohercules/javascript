@@ -107,26 +107,29 @@
 
 // for-in:--
 
-let obj = {
-    "name":"adarsh",
-    age : 25,
-    weight : 85,
-    height : "6 feet 1 inch",
-    greet: function() {
-        console.log("hello ji kaise ho saare")
-    }
-}
+// let obj = {
+//     "name":"adarsh",
+//     age : 25,
+//     weight : 85,
+//     height : "6 feet 1 inch",
+//     greet: function() {
+//         console.log("hello ji kaise ho saare")
+//     }
+// }
 
-for(let key in obj){
-    console.log(key," ", obj[key]);
-}
+// for(let key in obj){
+//     console.log(key," ", obj[key]);
+// }
+
+
 
 // for-of :--
 
-// let arr =[10,20,30,40];
-//    for(let value of arr){
-//     console.log(value);
-//    }
+let arr =[10,20,30,40];
+   for(let value of arr){
+    console.log(value);
+   }
+
 
 
 //arrays with functions :--
