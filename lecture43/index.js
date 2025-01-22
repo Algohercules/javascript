@@ -12,10 +12,17 @@
 
 // sayMyName();
 
-function printCounting(){
-    for(let i=1; i<=100; i++){
-           console.log(i);
-    }
+// function printCounting(){
+//     for(let i=1; i<=100; i++){
+//            console.log(i);
+//     }
+// }
+
+// printCounting();
+
+
+function printNumber(num){
+    console.log("printing number", num);
 }
 
-printCounting();
+printNumber(100);
