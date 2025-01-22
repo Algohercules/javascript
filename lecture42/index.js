@@ -83,11 +83,11 @@ let op1 = 'hindi';
 let op2 = 'english';
 
 
-let ans = op1 + op2;
-console.log(ans);
-
-// let ans=`${op1} + ${op2}`;
+// let ans = op1 + op2;
 // console.log(ans);
+
+let ans=`${op1} + ${op2}`;
+console.log(ans);
 
 // console.log(op2.length)
 
