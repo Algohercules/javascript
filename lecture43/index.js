@@ -21,8 +21,17 @@
 // printCounting();
 
 
-function printNumber(num){
-    console.log("printing number", num);
+// function printNumber(num){
+//     console.log("printing number", num);
+// }
+
+// printNumber(100);
+
+//num is a parameter and 100 is an argument
+
+function getAverage(num1,num2){
+    let avg = (num1 + num2)/2;
+    console.log("average:", avg);
 }
 
-printNumber(100);
+getAverage(3,7)
