@@ -70,3 +70,40 @@
 
 // let ans = getMultiplication(2,20);
 // console.log(ans);
+
+//example
+// let squareNumber = function(num){
+//     return num**2;
+// }
+
+// let ans = squareNumber(5);
+// console.log(ans);
+
+//arrow functions:---
+
+// <--1st way of representation-->//
+
+// function getExp(x,y){
+//     let ans = x**y;
+//     return ans;
+// }
+
+// console.log(getExp(2,10);
+
+//<-- 2nd way of representation-->//
+
+//  let getExp = function(x,y){
+//     let ans = x**y;
+//     return ans;
+// }
+
+// console.log(getExp(2,10))
+
+//<--3rd way of representation-->//
+
+// let getExp = (x,y) => {
+//     let ans = x**y;
+//     return ans;
+// }
+
+// console.log(getExp(2,10));
