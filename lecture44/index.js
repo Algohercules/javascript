@@ -26,11 +26,12 @@
 // arr.shift()
 // console.log(arr)
 
-arr.unshift('adarsh')
-console.log(arr)
+// arr.unshift('adarsh')
+// console.log(arr)
 
 // arr.slice(starting_index,ending_index)
-// console.log(arr.slice(2,4))
+console.log(arr.slice(2,4))
+
 
 //slice:--
 // arr.splice(1,2,"adarsh")
