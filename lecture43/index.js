@@ -29,9 +29,19 @@
 
 //num is a parameter and 100 is an argument
 
-function getAverage(num1,num2){
-    let avg = (num1 + num2)/2;
-    console.log("average:", avg);
+// function getAverage(num1,num2){
+//     let avg = (num1 + num2)/2;
+//     console.log("average:", avg);
+// }
+
+// getAverage(3,7)
+
+//return functions
+
+function getSum(a,b,c){
+    let sum = a + b + c;
+    return sum;
 }
 
-getAverage(3,7)
+let ans = getSum(1,2,3);
+console.log("sum is:", ans)
