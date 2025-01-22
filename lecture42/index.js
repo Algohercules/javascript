@@ -86,12 +86,12 @@ let op2 = 'english';
 // let ans = op1 + op2;
 // console.log(ans);
 
-let ans=`${op1} + ${op2}`;
-console.log(ans);
+// let ans=`${op1} + ${op2}`;
+// console.log(ans);
 
 // console.log(op2.length)
 
-// console.log(op1.toUpperCase());
+console.log(op1.toUpperCase());
 
 // // let str = "adarshkumarrai";
 // console.log(str.substring(0));
