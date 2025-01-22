@@ -3,15 +3,15 @@
 // //for(initialise; condition; updation)
 
 
-// // let i;
-// // for(let i=1; i<=10; i=i+1)
-// // {
-// //     console.log('babbar')
-// // }
+let i;
+for(let i=1; i<=10; i=i+1)
+{
+    console.log('babbar')
+}
 
-// // for(let i=1; i<=5; i++){
-// //     console.log(i)
-// // }
+for(let i=1; i<=5; i++){
+    console.log(i)
+}
 
  
 // // for(let i=5; i>0; i--){
