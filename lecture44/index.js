@@ -40,7 +40,7 @@
 //mapping:--
 let arr = [10,20,30];
 
- let ansArray = arr.map((number) =>{
+ let ansArray = arr.map( function (number) {
     return number*number;
 })
 console.log(ansArray)

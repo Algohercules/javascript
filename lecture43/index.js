@@ -115,7 +115,7 @@
 
 //<--3rd way of representation-->//
 
-let getExp = (x,y) => {
+let getExp =  (x,y) => {
     let ans = x**y;
     return ans;
 }
