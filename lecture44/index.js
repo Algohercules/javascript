@@ -39,26 +39,26 @@
 
 //mapping:--
 
-let arr = [10,20,30];
+// let arr = [10,20,30];
 
- let ansArray = arr.map( function (number) {
-    return number*number;
-})
-console.log(ansArray)
+//  let ansArray = arr.map( function (number) {
+//     return number*number;
+// })
+// console.log(ansArray)
 
 
 //filter:--
-// let arr = [10,20,30,11,21,44,51]
-//  let evenArray = arr.filter((number)=>{
-//     if(number%2===0){
-//         return true;
-//     }
-//     else{
-//         return false;
-//     }
-// });
+let arr = [10,20,30,11,21,44,51]
+ let evenArray = arr.filter( function (number){
+    if(number%2===0){
+        return true;
+    }
+    else{
+        return false;
+    }
+});
 
-// console.log(evenArray)
+console.log(evenArray)
 
 //or
 
