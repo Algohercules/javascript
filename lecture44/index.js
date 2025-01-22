@@ -12,7 +12,7 @@
 
 // //ARRAYS:--
 
- let arr = [1,2,3,4,5]
+//  let arr = [1,2,3,4,5]
 
 
 //built-in properties:--
@@ -30,7 +30,7 @@
 // console.log(arr)
 
 // arr.slice(starting_index,ending_index)
-console.log(arr.slice(2,4))
+// console.log(arr.slice(2,4))
 
 
 //slice:--
@@ -38,11 +38,12 @@ console.log(arr.slice(2,4))
 // console.log(arr)
 
 //mapping:--
-// let arr = [10,20,30];
-//  let ansArray = arr.map((number) =>{
-//     return number*number;
-// })
-// console.log(ansArray)
+let arr = [10,20,30];
+
+ let ansArray = arr.map((number) =>{
+    return number*number;
+})
+console.log(ansArray)
 
 
 //filter:--

@@ -9,7 +9,6 @@
 // function sayMyName(){
 //     console.log("adarsh rai")
 // }
-
 // sayMyName();
 
 // function printCounting(){
@@ -36,7 +35,7 @@
 
 // getAverage(3,7)
 
-//return functions
+//return in the functions
 
 // function getSum(a,b,c){
 //     let sum = a + b + c;
@@ -46,38 +45,53 @@
 // let ans = getSum(1,2,3);
 // console.log("sum is:", ans)
 
+
+
 // function getMyName(firstName, lastName) {
 //     let fullName = firstName+" "+ lastName;
 //     return fullName;
-      //unreachable statements
+//       //unreachable statements
 // }
-
 // let ans = getMyName("adarsh", "rai");
 // console.log("name is:", ans);
 
-//another way to write a function
+
+//another way to write a function:--
+
+// function getName(firstName, lastName){
+//       return firstName+lastName;
+// }
+
+// console.log(getName("adarsh","rai"))
+
+
 
 // function getmultiplication(a,b){
 //     return a*b;
 // }
 // console.log(getmultiplication(2,3))
 
-//another way to write the function
 
+
+//another way to write the function:--
+
+//example:--
 // let getMultiplication = function(a,b){
 //     return a*b;
 // }
-
 // let ans = getMultiplication(2,20);
 // console.log(ans);
+
+
 
 //example
 // let squareNumber = function(num){
 //     return num**2;
 // }
-
 // let ans = squareNumber(5);
 // console.log(ans);
+
+
 
 //arrow functions:---
 
@@ -101,9 +115,9 @@
 
 //<--3rd way of representation-->//
 
-// let getExp = (x,y) => {
-//     let ans = x**y;
-//     return ans;
-// }
+let getExp = (x,y) => {
+    let ans = x**y;
+    return ans;
+}
 
-// console.log(getExp(2,10));
+console.log(getExp(2,10));
