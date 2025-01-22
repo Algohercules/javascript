@@ -9,3 +9,8 @@
 // };
 // console.log(obj)
 // obj.greet();
+
+//ARRAYS:--
+
+let arr = [1,3, "adarsh", 7];
+console.log(arr);
