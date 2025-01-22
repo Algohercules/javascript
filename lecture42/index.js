@@ -68,32 +68,32 @@
 
 // strings--> sequence of characters
 
-let name = `this
-is 
-adarsh
-boy`
-console.log(name) 
+// let name = `this
+// is 
+// adarsh
+// boy`
+// console.log(name) 
 
 
 // let firstName = new String("love you");
 //   console.log(firstName);
 
 
-// let op1 = 'hindi';
-// let op2 = 'english';
+let op1 = 'hindi';
+let op2 = 'english';
 
 
-// let ans = op1 + op2;
-// console.log(ans);
+let ans = op1 + op2;
+console.log(ans);
 
 // let ans=`${op1} + ${op2}`;
 // console.log(ans);
 
 // console.log(op2.length)
 
-//console.log(op1.toUpperCase());
+// console.log(op1.toUpperCase());
 
-// let str = "adarshkumarrai";
+// // let str = "adarshkumarrai";
 // console.log(str.substring(0));
 // console.log(str.substring(1));
 // console.log(str.substring(2));
