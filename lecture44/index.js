@@ -91,19 +91,22 @@
 
 // index-of:--
 
-let arr = [9,1,4,6,3,2,7,5,8]
- arr.sort();
- console.log(arr.indexOf(9));
+// let arr = [9,1,4,6,3,2,7,5,8]
+//  arr.sort();
+//  console.log(arr.indexOf(9));
 
 
 //for-each:--
 
-// let arr = [10,20,30];
-// arr.forEach((value,index) => {
-//     console.log("number:", value, "index:", index);
-// });
+let arr = [10,20,30];
+arr.forEach((value,index) => {
+    console.log("number:", value, "index:", index);
+});
+
+
 
 // for-in:--
+
 // let obj = {
 //     "name":"adarsh",
 //     age : 25,
