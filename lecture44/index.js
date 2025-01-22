@@ -17,10 +17,13 @@
 
 //built-in properties:--
 
-arr.push(8)
+// arr.push(8)
+// console.log(arr)
+
+arr.pop()
 console.log(arr)
 
-// //arr.slice(starting_index,ending_index)
+// arr.slice(starting_index,ending_index)
 // console.log(arr.slice(2,4))
 
 //slice:--
