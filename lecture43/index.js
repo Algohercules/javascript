@@ -38,10 +38,18 @@
 
 //return functions
 
-function getSum(a,b,c){
-    let sum = a + b + c;
-    return sum;
+// function getSum(a,b,c){
+//     let sum = a + b + c;
+//     return sum;
+// }
+
+// let ans = getSum(1,2,3);
+// console.log("sum is:", ans)
+
+function getMyName(firstName, lastName) {
+    let fullName = firstName+" "+ lastName;
+    return fullName;
 }
 
-let ans = getSum(1,2,3);
-console.log("sum is:", ans)
+let ans = getMyName("adarsh", "rai");
+console.log("name is:", ans);
