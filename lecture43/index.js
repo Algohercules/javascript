@@ -9,3 +9,5 @@
 function sayMyName(){
     console.log("adarsh rai")
 }
+
+sayMyName();
