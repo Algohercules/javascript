@@ -107,10 +107,10 @@
 // console.log(str.substring(2,8));
 
 
-let sentence = "hello ji kaise ho saare"
-let words = sentence.split(' ');
+// let sentence = "hello ji kaise ho saare"
+// let words = sentence.split(' ');
 // console.log(words);
 
-// let sentence = "hello ji \"kaise\" ho saare";
+let sentence = "hello ji \"kaise\" ho saare";
 
-// console.log(sentence);
+console.log(sentence);
