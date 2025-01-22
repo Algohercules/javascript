@@ -86,14 +86,14 @@ truthy--> anything that is not falsey*/
 // console.log(2|5)
 // console.log(~0)
 
-left shift --> (5<<3) = (5*2^3)
-right shift --> (10>>3) = (10/2^3)
+// left shift --> (5<<3) = (5*2^3)
+// right shift --> (10>>3) = (10/2^3)
 
 
 
 //conditionals:--
 
-/* 
+
 if(condition)
 {
 ........
@@ -102,7 +102,7 @@ else
 {
 ........
 }
-*/
+
 
 // let age1=8;
 // if(age1>18){
