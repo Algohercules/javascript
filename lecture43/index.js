@@ -46,10 +46,27 @@
 // let ans = getSum(1,2,3);
 // console.log("sum is:", ans)
 
-function getMyName(firstName, lastName) {
-    let fullName = firstName+" "+ lastName;
-    return fullName;
-}
+// function getMyName(firstName, lastName) {
+//     let fullName = firstName+" "+ lastName;
+//     return fullName;
+      //unreachable statements
+// }
 
-let ans = getMyName("adarsh", "rai");
-console.log("name is:", ans);
+// let ans = getMyName("adarsh", "rai");
+// console.log("name is:", ans);
+
+//another way to write a function
+
+// function getmultiplication(a,b){
+//     return a*b;
+// }
+// console.log(getmultiplication(2,3))
+
+//another way to write the function
+
+// let getMultiplication = function(a,b){
+//     return a*b;
+// }
+
+// let ans = getMultiplication(2,20);
+// console.log(ans);
