@@ -23,7 +23,10 @@
 // arr.pop()
 // console.log(arr)
 
-arr.shift()
+// arr.shift()
+// console.log(arr)
+
+arr.unshift('adarsh')
 console.log(arr)
 
 // arr.slice(starting_index,ending_index)
