@@ -84,16 +84,16 @@
 
 //sorting:--
 
-let arr = [9,1,4,6,3,2,7,5,8]
-arr.sort();
-console.log(arr)
+// let arr = [9,1,4,6,3,2,7,5,8]
+// arr.sort();
+// console.log(arr)
 
 
 // index-of:--
 
-// let arr = [9,1,4,6,3,2,7,5,8]
-//  arr.sort();
-//  console.log(arr.indexOf(9));
+let arr = [9,1,4,6,3,2,7,5,8]
+ arr.sort();
+ console.log(arr.indexOf(9));
 
 
 //for-each:--
