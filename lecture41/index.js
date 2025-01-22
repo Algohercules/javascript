@@ -94,14 +94,14 @@ truthy--> anything that is not falsey*/
 //conditionals:--
 
 
-if(condition)
-{
-........
-}
-else
-{
-........
-}
+// if(condition)
+// {
+// ........
+// }
+// else
+// {
+// ........
+// }
 
 
 // let age1=8;
@@ -112,7 +112,7 @@ else
 //     console.log('cannot vote')
 // }
 
-/*
+
 if(condition1)
 {
 .........
@@ -129,7 +129,7 @@ else
 {
 .........
 }
-*/
+
 
 //nested if-else
 
