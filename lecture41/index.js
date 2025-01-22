@@ -21,24 +21,24 @@
 //post decrement
 
 
-//comparison operators
-/*
-<
->
-<=
->=
-==
-!=
-!==
-*/
+// //comparison operators
+// /*
+// <
+// >
+// <=
+// >=
+// ==
+// !=
+// !==
+// */
 
-// console.log(10<5)
-// console.log(10>5)
-// console.log(10<=5)
-// console.log(10>=5)
-// console.log(10==5)
-// console.log(10!=5)
-// console.log(10!==5)
+console.log(10<5)
+console.log(10>5)
+console.log(10<=5)
+console.log(10>=5)
+console.log(10==5)
+console.log(10!=5)
+console.log(10!==5)
 
 // console.log('5'==5);   //loose equality
 // console.log('5'===5)   //strict equality
