@@ -113,52 +113,52 @@ truthy--> anything that is not falsey*/
 // }
 
 
-if(condition1)
-{
-.........
-}
-else-if(condition2)
-{
-.........
-}
-else-if(condition3)
-{
-...........
-}
-else
-{
-.........
-}
+// if(condition1)
+// {
+// .........
+// }
+// else-if(condition2)
+// {
+// .........
+// }
+// else-if(condition3)
+// {
+// ...........
+// }
+// else
+// {
+// .........
+// }
 
 
 //nested if-else
 
-// let number = 4;
-// let age2 = 104;
+let number = 4;
+let age2 = 104;
 
-// if(number == 1)
-// {
-//     console.log('a')
-// }
-// else if(number == 2)
-// {
-//     console.log('b')
-// }
-// else if(number == 3)
-//     {
-//         console.log('c')
-//     }
-// else if(number == 4)
-//         {
-//             if(age2>18){
-//                 console.log('i can vote')
-//             }   
-//             console.log('d')
-//         }
-//        else                                  //optional
-//             {
-//                 console.log('e')
-//             }
+if(number == 1)
+{
+    console.log('a')
+}
+else if(number == 2)
+{
+    console.log('b')
+}
+else if(number == 3)
+    {
+        console.log('c')
+    }
+else if(number == 4)
+        {
+            if(age2>18){
+                console.log('i can vote')
+            }   
+            console.log('d')
+        }
+       else                                  //optional
+            {
+                console.log('e')
+            }
 
 
 //switch case
