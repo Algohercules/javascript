@@ -62,10 +62,32 @@
 
 
 
-function sayName (myName = "prabhudeva"){
-    console.log("my name is ", myName);
-}
+// function sayName (myName = "prabhudeva"){
+//     console.log("my name is ", myName);
+// }
 
-sayName(adarsh);
+// sayName(adarsh);
 
 //prabhudeva is acting as a default parameter, if any value is not passed then prabhudewa is printed but if thre value is pased then the vlaue will be printed
+
+
+// function solve(value){
+//     console.log("hello ji", value);
+// }
+
+// solve(15);
+
+
+//function as a default parameter :--
+
+// function getAge(){
+//      return 190;    
+// }
+
+
+// function utility( name = "love" , age = getAge()){
+//     console.log(name," ", age);
+
+// }
+
+// utility()
