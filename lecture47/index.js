@@ -15,6 +15,14 @@ class human {
     #weight = 80;   //private
     height = 107;
 
+    //constructor
+
+    constructor( newAge , newHeight){
+        this.age = newAge;
+        this.height = newHeight;
+
+    }
+
     //behaviour
 
      walking (){
@@ -34,8 +42,8 @@ class human {
      }
 }
 
-let obj = new Human();
-console.log(obj.age);
+let obj = new Human( 50 , 190);
+console.log(obj.height);
 obj.walking();
 
 //weight can only be accessed in the class block
@@ -46,4 +54,7 @@ obj.walking();
 
 
 
+
+// if we havent initialised the variable and have only declared it 
+// then to initialise  a vaiable we use constructor as a function
 
