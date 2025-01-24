@@ -6,45 +6,45 @@
 
 
 
-class human {
+// class human {
 
-     //properties 
+//      //properties 
 
      
-    age = 13;   //public
-    #weight = 80;   //private
-    height = 107;
+//     age = 13;   //public
+//     #weight = 80;   //private
+//     height = 107;
 
-    //constructor
+//     //constructor
 
-    constructor( newAge , newHeight){
-        this.age = newAge;
-        this.height = newHeight;
+//     constructor( newAge , newHeight){
+//         this.age = newAge;
+//         this.height = newHeight;
 
-    }
+//     }
 
-    //behaviour
+//     //behaviour
 
-     walking (){
-        console.log("i am adarsh");
-     }
+//      walking (){
+//         console.log("i am adarsh");
+//      }
 
-     running (){
-        console.log("i am running");
-     }
+//      running (){
+//         console.log("i am running");
+//      }
 
-     get fetchWeight(){
-        return this.#weight;
-     }
+//      get fetchWeight(){
+//         return this.#weight;
+//      }
 
-     set modifyWeight(value){
-        this.#weight = value;
-     }
-}
+//      set modifyWeight(value){
+//         this.#weight = value;
+//      }
+// }
 
-let obj = new Human( 50 , 190);
-console.log(obj.height);
-obj.walking();
+// let obj = new Human( 50 , 190);
+// console.log(obj.fetchWeight);
+// obj.walking();
 
 //weight can only be accessed in the class block
 
@@ -58,3 +58,14 @@ obj.walking();
 // if we havent initialised the variable and have only declared it 
 // then to initialise  a vaiable we use constructor as a function
 
+//default parameters allows to use functions with default values
+
+
+
+function sayName (myName = "prabhudeva"){
+    console.log("my name is ", myName);
+}
+
+sayName(adarsh);
+
+//prabhudeva is acting as a default parameter, if any value is not passed then prabhudewa is printed but if thre value is pased then the vlaue will be printed
