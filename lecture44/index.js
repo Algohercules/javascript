@@ -134,15 +134,15 @@
 
 //arrays with functions :--
 
-let arr =[10,20,30,40,50]
-function getSum(arr){
-    let length = arr.length;
-    let sum = 0;
-    for(let index=0; index<length; index++){
-        sum = sum + arr[index];
-    }
-    return sum;
-}
+// let arr =[10,20,30,40,50]
+// function getSum(arr){
+//     let length = arr.length;
+//     let sum = 0;
+//     for(let index=0; index<length; index++){
+//         sum = sum + arr[index];
+//     }
+//     return sum;
+// }
 
-let totalSum = getSum(arr);
-console.log(totalSum)
+// let totalSum = getSum(arr);
+// console.log(totalSum)

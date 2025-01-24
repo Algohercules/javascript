@@ -13,7 +13,7 @@
 // var age = 255;
 
 // output is undefined because it is variable scoping. here 
-// of variable gets declared but its value is not assigned to the variable thats why 25 is not printed whereas in case of functions the whole function gets hoisted(moved to top of its container) 
+// of variable gets declared but its value is not assigned to the variable that's why 25 is not printed whereas in case of functions the whole function gets hoisted(moved to top of its container) 
 
 //using let and cons keyword:---
 
