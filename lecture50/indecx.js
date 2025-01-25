@@ -2,3 +2,18 @@
 
  
 
+
+// //compile time error
+// //syntax error
+// console.log(1;
+
+
+
+
+// //run time error
+// //reference error
+//     console.log(x);
+
+
+
+
