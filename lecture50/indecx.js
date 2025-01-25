@@ -30,5 +30,6 @@ catch(error){
           //fallback mechanism
           //custom error
           console.log("i am inside catch block");
+          console.log("your error is here", error);
 
 }
