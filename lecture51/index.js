@@ -24,3 +24,10 @@
 //functionality of $0
 
 //abc.innerhtml
+
+//diffference in element.textcontent & element.innertext
+
+
+//.innertext me wo dikhta hai jo UI pe dikh rha hota hai
+
+// .textContent me wo dikhta hai jo originally code me likha hua hota h
