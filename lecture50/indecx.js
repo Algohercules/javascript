@@ -17,3 +17,17 @@
 
 
 
+try{
+    console.log("try block starts here");
+    console.log(x);
+    console.log("try block ends here");
+}
+
+catch(error){
+        //   error ka kya karna hai??
+          //retry logic 
+          //fallback mechanism
+          //custom error
+          console.log("i am inside catch block");
+
+}
