@@ -13,8 +13,10 @@
 // BOM --> BROWSER OBJECT MODEL
 
 
-getElementbyID
-getElementbyClass
-getElementbyTag
+// getElementbyID
+// getElementbyClass
+// getElementbyTag
 
-querry selector()
+// querry selector()
+
+// querryselectorall()
