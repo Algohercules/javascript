@@ -101,3 +101,11 @@
 //     console.log("src:", src);
 //     console.log("destination", destinatio);
 // }
+
+
+
+
+//garbage collector :---
+
+// Garbage collector always runs in the background to manage memory allocation and deallocation.
+// It automatically frees up memory by removing objects
