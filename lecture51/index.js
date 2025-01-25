@@ -36,4 +36,10 @@
 // add element :---
 // document.createElement
 
-insert adjacent html
+// insert adjacent html
+
+//positions :---
+//before Begin
+//after begin
+//before end
+//after end
