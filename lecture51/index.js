@@ -31,3 +31,7 @@
 //.innertext me wo dikhta hai jo UI pe dikh rha hota hai
 
 // .textContent me wo dikhta hai jo originally code me likha hua hota h
+
+
+add element :---
+document.createElement
