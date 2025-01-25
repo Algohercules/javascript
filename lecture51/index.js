@@ -20,3 +20,5 @@
 // querry selector()
 
 // querryselectorall()
+
+//functionality of $0
