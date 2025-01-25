@@ -17,3 +17,4 @@ getElementbyID
 getElementbyClass
 getElementbyTag
 
+querry selector()
