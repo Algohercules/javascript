@@ -21,6 +21,7 @@ try{
     console.log("try block starts here");
     console.log(x);
     console.log("try block ends here");
+    //error ke niche ki koi bhi lione execute nhi hoti
 }
 
 catch(error){
