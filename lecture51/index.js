@@ -33,5 +33,7 @@
 // .textContent me wo dikhta hai jo originally code me likha hua hota h
 
 
-add element :---
-document.createElement
+// add element :---
+// document.createElement
+
+insert adjacent html
