@@ -56,3 +56,21 @@
 
 
 
+// // assign operator :---
+
+
+
+//   let src = {    
+//          age:12,
+//          wt:36,
+//           ht:45
+//    }
+
+// let destination = Object.assign({},src)
+
+//  src.age = 90;
+
+//   console.log("src:", src);
+//  console.log("destination:", destination)
+
+
