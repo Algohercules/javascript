@@ -66,7 +66,12 @@
 //           ht:45
 //    }
 
-// let destination = Object.assign({},src)
+    // let src2 = {
+    //     value : 101;
+    //     name : "adarsh"
+    // }
+
+// let destination = Object.assign({}, src, src2)
 
 //  src.age = 90;
 
@@ -74,3 +79,25 @@
 //  console.log("destination:", destination)
 
 
+// iteration method :
+
+// not a prefferable method
+
+// let src = {
+//     age : 12,
+//     weight : 35,
+//     height : 596
+
+// }
+
+// let destination = {}
+
+// for(let key in src){
+//     let newKey = key;
+//     let newValue = src[key];
+
+//     destination [newKey] = newValue;
+
+//     console.log("src:", src);
+//     console.log("destination", destinatio);
+// }
