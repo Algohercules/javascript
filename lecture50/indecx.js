@@ -39,22 +39,42 @@
 
 // this will run everytime either ther ei s an error or not
 
-try{
-    console.log("i am inside try block");
-    console.log(x);
-    console.log("try block ends here");
-    //error ke niche ki koi bhi lione execute nhi hoti
-}
+// try{
+//     console.log("i am inside try block");
+//     console.log(x);
+//     console.log("try block ends here");
+//     //error ke niche ki koi bhi lione execute nhi hoti
+// }
 
-catch(error){
-        //   error ka kya karna hai??
-          //retry logic 
-          //fallback mechanism
-          //custom error
-          console.log("i am inside catch block");
+// catch(error){
+//         //   error ka kya karna hai??
+//           //retry logic 
+//           //fallback mechanism
+//           //custom error
+//           console.log("i am inside catch block");
 
-}
+// }
 
-finally {
-    console.log("i will run everytime");
-}
+// finally {
+//     console.log("i will run everytime");
+// }
+
+
+
+// creating a custom error using throw keyword:---
+
+
+// try{
+//     //reference block
+//     console.log(x);
+// }
+
+// catch(err)
+// {
+//     throw new Error("bhai pehle declare krna, phir print krna")
+// }
+
+// let errorCode = 100;
+// if(erorCode == 100){
+//     throw new Error("invalid json");
+// }
