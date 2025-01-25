@@ -11,3 +11,9 @@
 
 
 // BOM --> BROWSER OBJECT MODEL
+
+
+getElementbyID
+getElementbyClass
+getElementbyTag
+
