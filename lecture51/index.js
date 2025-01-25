@@ -22,3 +22,5 @@
 // querryselectorall()
 
 //functionality of $0
+
+//abc.innerhtml
