@@ -12,3 +12,4 @@
 // the location at which the code is written to execute the happening event is called the event listener
 // this is done by the addEventListener()and removeEventListener
 
+// <event-target>.addEventListener(<eventtype>,<function>)
