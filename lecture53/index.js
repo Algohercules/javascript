@@ -25,4 +25,10 @@ let fPara = document.getElementById('fpara')
 fPara.addEventListener('click', changeText)
 
 
-// fPara.removeEventListener('click', changeText)
+
+//remove event lisener :---
+fPara.removeEventListener('click', changeText)
+
+//the function passed  in addevent listener must be as same as that of used in the remove event listener then only it will work otherwise not
+
+
