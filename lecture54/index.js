@@ -25,5 +25,8 @@ for( let i = 1; i<=100; i++){
     myDiv.appendChild(para);
 }
 
+document.body.appendChild(myDiv);
 
-document.body.appendChild(myDiv)
+const t4 = performance.now()
+
+console.log("total time taken by code 2:", + (t3 - t4));
