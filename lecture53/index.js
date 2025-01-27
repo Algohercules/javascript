@@ -13,3 +13,13 @@
 // this is done by the addEventListener()and removeEventListener
 
 // <event-target>.addEventListener(<eventtype>,<function>)
+
+
+function changeText(){
+    let fPara = document.getElementById('fpara');
+    fPara.textContent = "hello babbar"
+}
+
+let fPara = document.getElementById('fpara')
+
+fPara.addEventListener('click', changeText)
