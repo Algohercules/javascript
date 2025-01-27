@@ -23,3 +23,6 @@ function changeText(){
 let fPara = document.getElementById('fpara')
 
 fPara.addEventListener('click', changeText)
+
+
+// fPara.removeEventListener('click', changeText)
