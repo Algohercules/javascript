@@ -44,3 +44,7 @@ fPara.removeEventListener('click', changeText)
 
 // event object :---
 //  triggerred event is accomodated in listener then we can utilise its data
+
+
+// default action :---
+//  it is defined as the most basic event of a tag or element 
