@@ -47,4 +47,13 @@ fPara.removeEventListener('click', changeText)
 
 
 // default action :---
-//  it is defined as the most basic event of a tag or element 
+//  it is defined as the most basic event of a tag or element
+
+// how to change default action :--
+
+let anchorElement = document.getElementById('fanchor')
+
+anchorEvent.addEventListener('click', function(event){
+    event.preventDefault();
+    anchorElement.textContent = "click done bhai"
+});
