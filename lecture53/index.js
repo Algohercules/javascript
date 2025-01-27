@@ -15,19 +15,19 @@
 // <event-target>.addEventListener(<eventtype>,<function>)
 
 
-function changeText(){
-    let fPara = document.getElementById('fpara');
-    fPara.textContent = "hello babbar"
-}
+// function changeText(){
+//     let fPara = document.getElementById('fpara');
+//     fPara.textContent = "hello babbar"
+// }
 
-let fPara = document.getElementById('fpara')
+// let fPara = document.getElementById('fpara')
 
-fPara.addEventListener('click', changeText)
+// fPara.addEventListener('click', changeText)
 
 
 
-//remove event lisener :---
-fPara.removeEventListener('click', changeText)
+// //remove event lisener :---
+// fPara.removeEventListener('click', changeText)
 
 //the function passed  in addevent listener must be as same as that of used in the remove event listener then only it will work otherwise not
 
@@ -51,9 +51,13 @@ fPara.removeEventListener('click', changeText)
 
 // how to change default action :--
 
-let anchorElement = document.getElementById('fanchor')
+// let anchorElement = document.getElementById('fanchor')
 
-anchorEvent.addEventListener('click', function(event){
-    event.preventDefault();
-    anchorElement.textContent = "click done bhai"
-});
+// anchorEvent.addEventListener('click', function(event){
+//     event.preventDefault();
+//     anchorElement.textContent = "click done bhai"
+// });
+
+
+
+// avoiding too many listeners
