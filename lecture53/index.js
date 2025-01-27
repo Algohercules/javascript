@@ -38,6 +38,6 @@ fPara.removeEventListener('click', changeText)
 // bubbling phase  ---> again coming out of the  root directory
 
 
-
+// addevent listener is applied in bubbling phase by default
 
  
