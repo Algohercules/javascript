@@ -40,4 +40,7 @@ fPara.removeEventListener('click', changeText)
 
 // addevent listener is applied in bubbling phase by default
 
- 
+
+
+// event object :---
+//  triggerred event is accomodated in listener then we can utilise its data
