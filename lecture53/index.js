@@ -65,7 +65,7 @@
 let paras = document.querySelectorAll('p');
 
 function alertPara(){
-    alert("you have clicked on para:")
+    alert("you have clicked on para:" + event.target.textContent)
 }
 
 for(let i = 0; i<paras.length; i++){
