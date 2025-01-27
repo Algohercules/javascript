@@ -65,4 +65,5 @@ for (let i = 1; i <= 100;  i++){
     fragment.appendChild(para);
 }
 
+//the below line takes 1 reflow and 1 repaint
 document.body.appendChild(fragment);
