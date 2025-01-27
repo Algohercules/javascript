@@ -30,3 +30,12 @@ document.body.appendChild(myDiv);
 const t4 = performance.now()
 
 console.log("total time taken by code 2:", + (t3 - t4));
+
+
+
+//reflow and repaint :---
+
+
+// reflow is the process of calculating the dimension or position of elements. it is much time consuming and computational process
+
+// repaint is the process of displaying th econtent pixel by pixel
