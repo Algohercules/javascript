@@ -32,3 +32,12 @@ fPara.removeEventListener('click', changeText)
 //the function passed  in addevent listener must be as same as that of used in the remove event listener then only it will work otherwise not
 
 
+//phases of an event :---
+// capturing phase  --->  trying to reach our root elment
+// at target phase ---> reached our root element
+// bubbling phase  ---> again coming out of the  root directory
+
+
+
+
+ 
