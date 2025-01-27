@@ -62,13 +62,13 @@
 
 // avoiding too many listeners
 
-let paras = document.querySelectorAll('p');
+// let paras = document.querySelectorAll('p');
 
-function alertPara(){
-    alert("you have clicked on para:" + event.target.textContent)
-}
+// function alertPara(){
+//     alert("you have clicked on para:" + event.target.textContent)
+// }
 
-for(let i = 0; i<paras.length; i++){
-    let para = paras[i];
-    para.addEventListener('click', alertPara)
-}
+// for(let i = 0; i<paras.length; i++){
+//     let para = paras[i];
+//     para.addEventListener('click', alertPara)
+//
