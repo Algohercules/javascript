@@ -39,3 +39,12 @@ console.log("total time taken by code 2:", + (t3 - t4));
 // reflow is the process of calculating the dimension or position of elements. it is much time consuming and computational process
 
 // repaint is the process of displaying th econtent pixel by pixel
+
+//repaint is faster because it is only printing the code
+
+
+
+//code 1 has the most reflow and repaint bcz we are directly attaching the every paragraph to the document 
+
+
+//code 2 is faster bcz  there is very less reflow needed here due to the fact that we are first inserting the 100 paragraphhs in our div which requires no reflow and then we just simply painted that value on the web so it takes less reflow and repaint
