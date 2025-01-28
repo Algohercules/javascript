@@ -22,17 +22,18 @@
 //  await --> fetch data --> network call --> async
 //process data --> sync
 
- async function getData(){
+//  async function getData(){
 
 
-    //get request -> async
-    let response = await fetch ('url');
+//     //get request -> async
+//     let response = await fetch ('url');
 
-    // parse url -> async
-    let data = await response.json();
-    console.log(data);
- }
+//     // parse url -> async
+//     let data = await response.json();
+//     console.log(data);
+//  }
 
- getData();
+//  getData();
+
 
 
