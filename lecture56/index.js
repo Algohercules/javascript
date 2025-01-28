@@ -10,3 +10,11 @@
 
 // })
 
+
+ let firstPromise = new Promise ((resolve , reject) => {
+function sayMyName(){
+      console.log("my name is adarsh")
+}
+
+setTimeout(sayMyName, 10000)
+})
