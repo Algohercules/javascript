@@ -4,4 +4,7 @@
 // asynchronous code :---
 // vice versa of synchronous code
 
- 
+//to handle the asynchronous code we use event loop 
+
+// call stack --> browser --> call back queue
+
