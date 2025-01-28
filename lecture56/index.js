@@ -20,18 +20,20 @@
 // })
 
 
-let promise1 = new promise((resolve, reject) => {
-    let success = true;
-    if (success){
-        resolve ("promise fulfilled");
-    }
-    else {
-        reject ("promise rejected")
-    }
-})
+// let promise1 = new promise((resolve, reject) => {
+//     let success = true;
+//     if (success){
+//         resolve ("promise fulfilled");
+//     }
+//     else {
+//         reject ("promise rejected")
+//     }
+// })
 
-promise1.then ((message) =>{
-    console.log("then ka msg" +     message);
-}).catch((error)=>{
-    console.log("error:" + error);
-})
+// promise1.then ((message) =>{
+//     console.log("then ka msg" +     message);
+// }).catch((error)=>{
+//     console.log("error:" + error);
+// })
+
+
